@@ -1,0 +1,15 @@
+/* Based on https://jsfiddle.net/Filo/m7yww8oa/  */
+nav.navbar {
+  background-color: #4dd2ff;
+   /* Animation */
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+.home-logo {
+
+}
