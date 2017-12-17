@@ -1,0 +1,64 @@
+/* Based on https://jsfiddle.net/Filo/m7yww8oa/  */
+nav.navbar {
+  background-color: #4dd2ff;
+  height: 75px;
+   /* Animation */
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+   margin: 0 0 85px 0;
+}
+
+nav.navbar.shrink {
+  height: 50px;
+  margin: 0 0 50px 0;
+}
+
+.home-logo.shrink {
+  height: 40px;
+}
+
+.home-logo {
+  height: 65px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  /* Animation */
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.home-logo:hover {
+  height: 75px;
+}
+
+.home-logo.shrink:hover {
+  height: 50px;
+}
+
+.link-container {
+  color: #263B7E;
+  font-size: 28px;
+  position: absolute;
+  bottom: 25%;
+  right: 5%;
+  /* Animation */
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.link-container.shrink {
+  bottom: 0%;
+}
+
+.link-container a {
+  color: #263B7E;
+}
+
+.link-container a:visited {
+  color: #263B7E;
+}
+
+.link-container a:hover {
+  color: white;
+  text-decoration: none;
+}
