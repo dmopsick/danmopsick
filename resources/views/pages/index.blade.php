@@ -6,9 +6,9 @@
 
 @section ('content')
   <div class="section">
-
+    <a class="navy-btn btn-component" href="#about">Nice to Meet You!</a>
   </div>
-  <div id="about" class="section">
+  <div id="about" class="section landing-section">
 
   </div>
   <div id="projects" class="section">
