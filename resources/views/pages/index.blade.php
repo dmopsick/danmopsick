@@ -5,20 +5,19 @@
 @endsection
 
 @section ('content')
-  <h1>Hello World!</h1>
-  </br>
-  </br>
-  </br>
-  </br>
-  </br>
-  </br>
-  </br>
-  </br>
-  </br>
-  </br>
-  </br>
-  </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-</h1>Hello Again</h1>
+  <div class="section">
+
+  </div>
+  <div id="about" class="section">
+
+  </div>
+  <div id="projects" class="section">
+
+  </div>
+  <div id="contact" class="section">
+
+  </div>
+
 @endsection
 
 @section ('js')
