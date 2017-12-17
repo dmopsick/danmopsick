@@ -3,7 +3,7 @@
 @include ('partials.nav_bar')
 
 <body>
-  <div class="container-fluid">
+  <div class="my-container">
     @yield ('content')
 
     @include ('partials.footer')

@@ -5,7 +5,6 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <a href="#"><img src="{{ URL::asset('img/dm_logo.png') }}" class="home-logo" /></a>
-
     <div class="link-container">
       <a href="#about">About</a> | <a href="#projects">Projects</a> | <a href="#contact">Contact</a>
     </div>
