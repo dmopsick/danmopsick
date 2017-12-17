@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<title>Dan Mopsick - Web Developer</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="description" content="Dan Mopsick is a Computer Science major at Marist College. He is passionate about web development and building responsive websites.">

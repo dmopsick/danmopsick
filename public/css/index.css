@@ -1,5 +1,15 @@
 .landing-section {
-background-image: url(../img/two_dans4.png);
+  background-image: url(../img/two_dans4.png);
+}
+
+.about-section {
+  background-image: url(../img/mountain_dan.jpg);
+}
+
+.action-btn {
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
 }
 
 .photo-background {
@@ -8,6 +18,7 @@ background-image: url(../img/two_dans4.png);
   height: 500px;
 }
 
+/* Handles the bouncing animation on landing section */
 @keyframes bounce {
   0%,
   100%,
@@ -31,6 +42,18 @@ background-image: url(../img/two_dans4.png);
 }
 
 @media (min-width: 1024px) {
+  .about-text-container {
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding: 125px 0 0 0;
+  }
+
+  .about-text {
+    color: white;
+    font-size: 24px;
+  }
+
   .landing-action-btn {
     -webkit-animation: bounce 2s infinite 2s;
     animation: bounce 2s infinite 2s;
@@ -38,7 +61,15 @@ background-image: url(../img/two_dans4.png);
     transition: all .2s ease-in;
     display: block;
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     left: 45%;
+  }
+
+  .section {
+    min-height: 875px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
   }
 }

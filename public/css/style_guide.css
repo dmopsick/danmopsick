@@ -50,11 +50,6 @@ a.white-btn:visited:hover {
 }
 
 @media (min-width: 1024px) {
-  .section {
-    min-height: 875px;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-  }
+
 
 }
