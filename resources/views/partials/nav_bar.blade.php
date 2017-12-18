@@ -6,7 +6,7 @@
   <div class="container">
     <a href="#"><img src="{{ URL::asset('img/dm_logo.png') }}" class="home-logo" /></a>
     <div class="link-container">
-      <a href="#about">About</a> | <a href="#projects">Projects</a> | <a href="#contact">Contact</a>
+      <a href="#about">About <i class="fa fa-id-card" aria-hidden="true"></i></a> | <a href="#projects">Projects <i class="fa fa-briefcase" aria-hidden="true"></i></a> | <a href="#contact">Contact <i class="fa fa-envelope" aria-hidden="true"></i></a>
     </div>
   </div>
 </nav>

@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5,p,li, a{
+	font-family: Lato;
+}
+
 .my-container {
   margin-top: 75px;
   /* Animation */
@@ -21,6 +25,14 @@
 
 .btn-component:hover {
   text-decoration: none;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.flex-box-half {
+  flex-basis: 50%;
 }
 
 .navy-btn {
@@ -50,11 +62,6 @@ a.white-btn:visited:hover {
 }
 
 @media (min-width: 1024px) {
-  .section {
-    min-height: 875px;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-  }
+
 
 }

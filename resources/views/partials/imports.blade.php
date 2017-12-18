@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<title>Dan Mopsick - Web Developer</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="description" content="Dan Mopsick is a Computer Science major at Marist College. He is passionate about web development and building responsive websites.">
@@ -13,3 +14,4 @@
 <link rel="icon" href="../img/logo.ico">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">

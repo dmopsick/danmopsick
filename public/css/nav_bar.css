@@ -21,7 +21,7 @@ nav.navbar.shrink {
   height: 65px;
   position: absolute;
   top: 0%;
-  left: 0%;
+  left: 1%;
   /* Animation */
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
