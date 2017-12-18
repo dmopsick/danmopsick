@@ -8,6 +8,7 @@
   <div class="section landing-section photo-background">
     <a class="white-btn btn-component landing-action-btn" href="#about">Nice to Meet You!</a>
   </div>
+
   <div id="about" class="section about-section photo-background">
 
     <div class="about-text-container">
@@ -46,9 +47,29 @@
     </div>
     <a class="white-btn btn-component action-btn" href="#projects">Check out my Work!</a>
   </div>
-  <div id="projects" class="section">
 
+  <div id="projects" class="section">
+    <div id="sga" class="project-section">
+      SGA PROJECT
+    </div>
+    <div id="carponents" class="project-section">
+      CARPONENTS PROJECT
+    </div>
+    <div id="library" class="project-section">
+      Library Project
+    </div>
+
+    <div class="project-thumbnail sga-thumbnail" onclick="showProject('sga')">
+      SGA THUMBNAIL
+    </div>
+    <div class="project-thumbnal carponents-thumbnail" onclick="showProject('carponents')">
+      CARPONENTS THUMBNAIL
+    </div>
+    <div class="project-thumbnal library-thumbnail" onclick="showProject('library')">
+      LBRARY THUMBNAIL
+    </div>
   </div>
+
   <div id="contact" class="section">
 
   </div>
@@ -57,4 +78,5 @@
 
 @section ('js')
   <script src="{{ URL::asset('js/about.js') }}"></script>
+  <script src="{{ URL::asset('js/projects.js') }}"></script>
 @endsection
