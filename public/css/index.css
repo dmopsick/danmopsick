@@ -6,6 +6,18 @@
   background-image: url(../img/mountain_dan.jpg);
 }
 
+.about-section ul {
+    list-style-type: none;
+}
+
+.about-header {
+  cursor: pointer
+}
+
+.about-text {
+  display: none;
+}
+
 .action-btn {
   position: absolute;
   bottom: 10%;
@@ -42,16 +54,31 @@
 }
 
 @media (min-width: 1024px) {
+  .about-column {
+    flex-basis: 33%;
+  }
+
   .about-text-container {
-    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
     margin:auto;
     text-align: center;
     padding: 125px 0 0 0;
+    width: 85%;
+  }
+
+  .about-header {
+    color: white;
+    font-size: 48px;
   }
 
   .about-text {
     color: white;
     font-size: 24px;
+  }
+
+  .about-text li {
+    margin-top: 35px;
   }
 
   .landing-action-btn {
