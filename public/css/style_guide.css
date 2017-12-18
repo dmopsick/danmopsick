@@ -27,6 +27,14 @@ h1,h2,h3,h4,h5,p,li, a{
   text-decoration: none;
 }
 
+.flex-box {
+  display: flex;
+}
+
+.flex-box-half {
+  flex-basis: 50%;
+}
+
 .navy-btn {
   color: #263B7E;
   background-color: transparent;

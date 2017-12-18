@@ -50,7 +50,36 @@
 
   <div id="projects" class="section">
     <div id="sga" class="project-section">
-      SGA PROJECT
+      <a class="sga-proj-pic1 photo-background" href="https://sga.marist.edu/off-campus-activities"></a>
+      <a class="sga-proj-pic2 photo-background" href="https://sga.marist.edu/foxtrot"></a>
+      <a class="sga-proj-pic3 photo-background" href="https://sga.marist.edu/foxtrot"></a>
+      <div class="sga-proj-desc">
+        <h3 class="sga-proj-header">Marist Student Government IT Council</h3>
+        <h4 class="sga-proj-subheader">Lead Developer &#183; Fall 2016 - Present</h4>
+
+        <div class="flex-box">
+          <div class="flex-box-half">
+            <h4 class="sga-proj-subheader">Projects Worked On</h4>
+            <ul>
+              <li>Website Redesign</li>
+              <li>Implementing Laravel</li>
+              <li>Off Campus Activities</li>
+              <li>Foxtrot</li>
+              <li>Created FAQ</li>
+            </ul>
+          </div>
+          <div class="flex-box-half">
+            <h4 class="sga-proj-subheader">Duties Performed</h4>
+            <ul>
+              <li>Assign issues to developers</li>
+              <li>Review pull requests</li>
+              <li>Recruit and interview developers</li>
+              <li>Hold weekly developer standups</li>
+              <li>Complete issues</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="carponents" class="project-section">
       CARPONENTS PROJECT

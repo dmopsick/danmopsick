@@ -1,12 +1,5 @@
-.landing-section {
-  background-image: url(../img/two_dans4.png);
-}
 
-.about-section {
-  background-image: url(../img/mountain_dan.jpg);
-}
-
-.about-section ul {
+.about-section ul, .project-section ul {
     list-style-type: none;
 }
 
@@ -53,7 +46,16 @@
   }
 }
 
+/* CSS for larger screens ex laptops, desktops */
 @media (min-width: 1024px) {
+  .landing-section {
+    background-image: url(../img/two_dans4.png);
+  }
+
+  .about-section {
+    background-image: url(../img/mountain_dan.jpg);
+  }
+
   .about-column {
     flex-basis: 33%;
   }
@@ -80,6 +82,66 @@
   .about-text li {
     margin-top: 35px;
   }
+
+  /* CSS for projects section */
+
+  .project-section {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .sga-proj-pic1 {
+    background-image: url(../img/sga_proj_pic1.png);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .sga-proj-pic2 {
+    background-image: url(../img/sga_proj_pic2.png);
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .sga-proj-pic3 {
+    background-image: url(../img/sga_proj_pic3.png);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .sga-proj-desc {
+    background-color: #e3e9ed;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .sga-proj-desc li {
+    font-size: 22px;
+    padding: 10px 0;
+  }
+
+  .sga-proj-header {
+    font-size: 40px;
+    padding: 75px 0 25px 0;;
+    text-align: center;
+  }
+
+  .sga-proj-subheader {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0 25px 0;
+    text-align: center;
+  }
+
+  /* End of projects section css */
 
   .landing-action-btn {
     -webkit-animation: bounce 2s infinite 2s;
