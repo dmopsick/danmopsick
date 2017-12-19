@@ -176,6 +176,14 @@
     text-align: center;
   }
 
+  .carponents-proj-desc {
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
   /* End of projects section css */
 
   .landing-action-btn {

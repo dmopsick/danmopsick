@@ -65,16 +65,28 @@
         <h4 class="sga-proj-subheader">Technology Utilized</h4>
         <p>HTML, CSS, Javascript, PHP, Laravel, Slack, Github</p>
 
-        <img src="{{ URL::asset('img/sga_logo.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')"/>
+        <img src="{{ URL::asset('img/sga_logo2.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')"/>
         <img src="{{ URL::asset('img/carponents_logo.png') }}" class="project-thumbnail carponents-thumbnail" onclick="showProject('carponents')"/>
         <img src="{{ URL::asset('img/marist_logo.png') }}" class="project-thumbnail library-thumbnail" onclick="showProject('library')"/>
       </div>
     </div>
     <div id="carponents" class="project-section">
-      CARPONENTS PROJECT
+      <div class="carponents-proj-desc">
+        
+
+
+        <img src="{{ URL::asset('img/sga_logo2.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')"/>
+        <img src="{{ URL::asset('img/carponents_logo.png') }}" class="project-thumbnail carponents-thumbnail" onclick="showProject('carponents')"/>
+        <img src="{{ URL::asset('img/marist_logo.png') }}" class="project-thumbnail library-thumbnail" onclick="showProject('library')"/>
+      </div>
     </div>
     <div id="library" class="project-section">
-      Library Project
+      <div class="library-proj-desc">
+
+        <img src="{{ URL::asset('img/sga_logo2.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')"/>
+        <img src="{{ URL::asset('img/carponents_logo.png') }}" class="project-thumbnail carponents-thumbnail" onclick="showProject('carponents')"/>
+        <img src="{{ URL::asset('img/marist_logo.png') }}" class="project-thumbnail library-thumbnail" onclick="showProject('library')"/>
+      </div>
     </div>
   </div>
 
