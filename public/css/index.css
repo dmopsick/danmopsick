@@ -91,6 +91,33 @@
     grid-template-rows: 50% 50%;
   }
 
+  .project-thumbnail {
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+  }
+
+  .sga-thumbnail {
+    left: 60%;
+  }
+
+  .carponents-thumbnail {
+    left: 70%;
+  }
+
+  .library-thumbnail {
+    left: 80%;
+  }
+
+  .project-thumbnail:hover {
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+    -o-filter: brightness(70%);
+    -ms-filter: brightness(70%);
+    filter: brightness(70%);
+  }
+
   .sga-proj-pic1 {
     background-image: url(../img/sga_proj_pic1.png);
     grid-column-start: 1;
@@ -116,7 +143,7 @@
   }
 
   .sga-proj-pic1:hover, .sga-proj-pic2:hover, .sga-proj-pic3:hover {
-      -webkit-filter: brightness(70%);
+    -webkit-filter: brightness(70%);
   	-moz-filter: brightness(70%);
   	-o-filter: brightness(70%);
   	-ms-filter: brightness(70%);

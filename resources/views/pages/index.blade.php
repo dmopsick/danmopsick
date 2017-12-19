@@ -56,6 +56,7 @@
       <div class="sga-proj-desc">
         <h3 class="sga-proj-header">Marist Student Government IT Council</h3>
         <h4 class="sga-proj-subheader">Lead Developer &#183; Fall 2016 - Present</h4>
+
         <p>As lead developer I am responsible for developing, maintaining, and enhancing the SGA website. I do this by creating and assigning issues to my team of developers on GitHub and completing them myself. Once a developer completes an issue I review pull requests and give feedback or approve and merge. I connect with my fellow developers through our Slack channel and by holding weekly developer standups.</p>
 
         <h4 class="sga-proj-subheader">Projects</h4>
@@ -63,6 +64,10 @@
 
         <h4 class="sga-proj-subheader">Technology Utilized</h4>
         <p>HTML, CSS, Javascript, PHP, Laravel, Slack, Github</p>
+
+        <img src="{{ URL::asset('img/sga_logo.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')"/>
+        <img src="{{ URL::asset('img/carponents_logo.png') }}" class="project-thumbnail carponents-thumbnail" onclick="showProject('carponents')"/>
+        <img src="{{ URL::asset('img/marist_logo.png') }}" class="project-thumbnail library-thumbnail" onclick="showProject('library')"/>
       </div>
     </div>
     <div id="carponents" class="project-section">
@@ -70,16 +75,6 @@
     </div>
     <div id="library" class="project-section">
       Library Project
-    </div>
-
-    <div class="project-thumbnail sga-thumbnail" onclick="showProject('sga')">
-      SGA THUMBNAIL
-    </div>
-    <div class="project-thumbnal carponents-thumbnail" onclick="showProject('carponents')">
-      CARPONENTS THUMBNAIL
-    </div>
-    <div class="project-thumbnal library-thumbnail" onclick="showProject('library')">
-      LBRARY THUMBNAIL
     </div>
   </div>
 
