@@ -56,29 +56,13 @@
       <div class="sga-proj-desc">
         <h3 class="sga-proj-header">Marist Student Government IT Council</h3>
         <h4 class="sga-proj-subheader">Lead Developer &#183; Fall 2016 - Present</h4>
+        <p>As lead developer I am responsible for developing, maintaining, and enhancing the SGA website. I do this by creating and assigning issues to my team of developers on GitHub and completing them myself. Once a developer completes an issue I review pull requests and give feedback or approve and merge. I connect with my fellow developers through our Slack channel and by holding weekly developer standups.</p>
 
-        <div class="flex-box">
-          <div class="flex-box-half">
-            <h4 class="sga-proj-subheader">Projects Worked On</h4>
-            <ul>
-              <li>Website Redesign</li>
-              <li>Implementing Laravel</li>
-              <li>Off Campus Activities</li>
-              <li>Foxtrot</li>
-              <li>Created FAQ</li>
-            </ul>
-          </div>
-          <div class="flex-box-half">
-            <h4 class="sga-proj-subheader">Duties Performed</h4>
-            <ul>
-              <li>Assign issues to developers</li>
-              <li>Review pull requests</li>
-              <li>Recruit and interview developers</li>
-              <li>Hold weekly developer standups</li>
-              <li>Complete issues</li>
-            </ul>
-          </div>
-        </div>
+        <h4 class="sga-proj-subheader">Projects</h4>
+        <p>I participated in a redesign of the website in the spring of 2017 and learned a lot from the older developers. In the summer of 2017 I stepped up and played a major role in transitioning the student government website from a basic HTML site to a Laravel based site. In the fall of 2017 I worked with the student body president to launch the Foxtrot campaign. Foxtrot was a project aimed at getting first year students at Marist get involved with student government and the Marist community in general. In between I have built several pages for the site including the off campus activities page and FAQ pages. </p>
+
+        <h4 class="sga-proj-subheader">Technology Utilized</h4>
+        <p>HTML, CSS, Javascript, PHP, Laravel, Slack, Github</p>
       </div>
     </div>
     <div id="carponents" class="project-section">
