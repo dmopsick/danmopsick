@@ -50,9 +50,9 @@
 
   <div id="projects" class="section">
     <div id="sga" class="project-section">
-      <a class="sga-proj-pic1 proj-pic" href="https://sga.marist.edu/off-campus-activities"></a>
-      <a class="sga-proj-pic2 proj-pic" href="https://sga.marist.edu/foxtrot"></a>
-      <a class="sga-proj-pic3 proj-pic" href="https://sga.marist.edu/faq"></a>
+      <a class="sga-proj-pic1 proj-pic" href="https://sga.marist.edu/off-campus-activities" target="_blank"></a>
+      <a class="sga-proj-pic2 proj-pic" href="https://sga.marist.edu/foxtrot" target="_blank"></a>
+      <a class="sga-proj-pic3 proj-pic" href="https://sga.marist.edu/faq" target="_blank"></a>
       <div class="sga-proj-desc">
         <h3 class="proj-header">Marist Student Government IT Council</h3>
         <h4 class="sga-proj-subheader">Lead Developer &#183; Fall 2016 - Present</h4>
@@ -85,7 +85,7 @@
       </div>
     </div>
     <div id="library" class="project-section">
-      <a class="library-pic" href="http://library.marist.edu/exploro/"></a>
+      <a class="library-pic" href="http://library.marist.edu/exploro/" target="_blank"></a>
       <div class="library-proj-desc">
         <h3 class="proj-header">Marist Library Digital Services</h3>
         <h4 class="sga-proj-subheader">Web Developer &#183; Spring 2017 - Present</h4>
@@ -105,13 +105,7 @@
         </div>
       </div>
     </div>
-    <a class="navy-btn btn-component action-btn" href="#projects">Let's Keep in Touch!</a>
   </div>
-
-  <div id="contact" class="section">
-
-  </div>
-
 @endsection
 
 @section ('js')

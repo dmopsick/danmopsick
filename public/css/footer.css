@@ -1,3 +1,22 @@
 .footer {
+  background-color: #4dd2ff; /* Same light blue as header */
   text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .footer p {
+    font-size: 18px;
+    padding: 10px 0 0 0;
+  }
+
+  .social-link, .social-link:visited {
+    color: #263B7E;
+    font-size: 64px;
+    line-height: 48px;
+    margin: 0 10px;
+  }
+
+  .social-link:hover {
+    color:white;
+  }
 }
