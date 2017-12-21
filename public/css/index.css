@@ -93,21 +93,9 @@
 
   .project-thumbnail {
     cursor: pointer;
-    position: absolute;
-    bottom: 5%;
+    display: block;
+    margin: auto;
     text-align: center;
-  }
-
-  .sga-thumbnail {
-    left: 60%;
-  }
-
-  .carponents-thumbnail {
-    left: 70%;
-  }
-
-  .library-thumbnail {
-    left: 80%;
   }
 
   .project-thumbnail:hover {
@@ -142,7 +130,13 @@
     grid-row-end: 2;
   }
 
-  .sga-proj-pic1:hover, .sga-proj-pic2:hover, .sga-proj-pic3:hover {
+  .proj-pic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+  }
+
+  .proj-pic:hover, .library-pic:hover {
     -webkit-filter: brightness(70%);
   	-moz-filter: brightness(70%);
   	-o-filter: brightness(70%);
@@ -157,15 +151,14 @@
     grid-row-end: 3;
   }
 
-  .sga-proj-desc p {
+  .project-section p {
     font-size: 16px;
     margin: auto;
     width: 85%;
   }
 
-  .sga-proj-header {
+  .proj-header {
     font-size: 40px;
-    padding: 75px 0 25px 0;;
     text-align: center;
   }
 
@@ -177,6 +170,24 @@
   }
 
   .carponents-proj-desc {
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .library-pic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/exploro2.png);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .library-proj-desc {
     background-color: white;
     grid-column-start: 3;
     grid-column-end: 3;
