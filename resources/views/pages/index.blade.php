@@ -52,7 +52,7 @@
     <div id="sga" class="project-section">
       <a class="sga-proj-pic1 proj-pic" href="https://sga.marist.edu/off-campus-activities"></a>
       <a class="sga-proj-pic2 proj-pic" href="https://sga.marist.edu/foxtrot"></a>
-      <a class="sga-proj-pic3 proj-pic" href="https://sga.marist.edu/foxtrot"></a>
+      <a class="sga-proj-pic3 proj-pic" href="https://sga.marist.edu/faq"></a>
       <div class="sga-proj-desc">
         <h3 class="proj-header">Marist Student Government IT Council</h3>
         <h4 class="sga-proj-subheader">Lead Developer &#183; Fall 2016 - Present</h4>
@@ -66,9 +66,9 @@
         <p>HTML, CSS, Javascript, PHP, Laravel, Slack, Github</p>
 
         <div style="width:80%; margin:auto; display:flex;">
-          <img src="{{ URL::asset('img/sga_logo2.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')" align="center"/>
-          <img src="{{ URL::asset('img/carponents_logo.png') }}" class="project-thumbnail carponents-thumbnail" onclick="showProject('carponents')" align="center"/>
-          <img src="{{ URL::asset('img/marist_logo.png') }}" class="project-thumbnail library-thumbnail" onclick="showProject('library')" align="center"/>
+          <img src="{{ URL::asset('img/sga_logo2.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')"/>
+          <img src="{{ URL::asset('img/carponents_logo.png') }}" class="project-thumbnail carponents-thumbnail" onclick="showProject('carponents')"/>
+          <img src="{{ URL::asset('img/marist_logo.png') }}" class="project-thumbnail library-thumbnail" onclick="showProject('library')"/>
         </div>
       </div>
     </div>
@@ -96,7 +96,7 @@
         <p>I participated in a redesign of the website in the spring of 2017 and learned a lot from the older developers. In the summer of 2017 I stepped up and played a major role in transitioning the student government website from a basic HTML site to a Laravel based site. In the fall of 2017 I worked with the student body president to launch the Foxtrot campaign. Foxtrot was a project aimed at getting first year students at Marist get involved with student government and the Marist community in general. In between I have built several pages for the site including the off campus activities page and FAQ pages. </p>
 
         <h4 class="sga-proj-subheader">Technology Utilized</h4>
-        <p>HTML, CSS, Javascript, PHP, Laravel, Slack, Github</p>
+        <p>HTML, CSS, Javascript, PHP, CodeIgniter, Apache Solr, XML, Github</p>
 
         <div style="width:80%; margin:auto; display:flex;">
           <img src="{{ URL::asset('img/sga_logo2.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')" align="center"/>
@@ -105,6 +105,7 @@
         </div>
       </div>
     </div>
+    <a class="navy-btn btn-component action-btn" href="#projects">Let's Keep in Touch!</a>
   </div>
 
   <div id="contact" class="section">

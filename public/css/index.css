@@ -98,6 +98,12 @@
     text-align: center;
   }
 
+  .project-action-btn {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
   .project-thumbnail:hover {
     -webkit-filter: brightness(70%);
     -moz-filter: brightness(70%);
@@ -133,7 +139,7 @@
   .proj-pic {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 425px;
+    height: 437.5px;
   }
 
   .proj-pic:hover, .library-pic:hover {
@@ -178,6 +184,7 @@
   }
 
   .library-pic {
+    height: 875px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/exploro2.png);
@@ -196,6 +203,12 @@
   }
 
   /* End of projects section css */
+
+  /* Contact section CSS */
+
+
+
+  /* End of contact section CSS */
 
   .landing-action-btn {
     -webkit-animation: bounce 2s infinite 2s;
