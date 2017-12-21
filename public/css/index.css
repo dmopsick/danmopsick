@@ -91,6 +91,21 @@
     grid-template-rows: 50% 50%;
   }
 
+  .project-thumbnail {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .project-thumbnail:hover {
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+    -o-filter: brightness(70%);
+    -ms-filter: brightness(70%);
+    filter: brightness(70%);
+  }
+
   .sga-proj-pic1 {
     background-image: url(../img/sga_proj_pic1.png);
     grid-column-start: 1;
@@ -115,6 +130,19 @@
     grid-row-end: 2;
   }
 
+  .proj-pic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+  }
+
+  .proj-pic:hover, .library-pic:hover {
+    -webkit-filter: brightness(70%);
+  	-moz-filter: brightness(70%);
+  	-o-filter: brightness(70%);
+  	-ms-filter: brightness(70%);
+  	filter: brightness(70%);
+  }
   .sga-proj-desc {
     background-color: #e3e9ed;
     grid-column-start: 3;
@@ -123,14 +151,14 @@
     grid-row-end: 3;
   }
 
-  .sga-proj-desc li {
-    font-size: 22px;
-    padding: 10px 0;
+  .project-section p {
+    font-size: 16px;
+    margin: auto;
+    width: 85%;
   }
 
-  .sga-proj-header {
+  .proj-header {
     font-size: 40px;
-    padding: 75px 0 25px 0;;
     text-align: center;
   }
 
@@ -139,6 +167,32 @@
     font-weight: bold;
     padding: 10px 0 25px 0;
     text-align: center;
+  }
+
+  .carponents-proj-desc {
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .library-pic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/exploro2.png);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .library-proj-desc {
+    background-color: white;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
   }
 
   /* End of projects section css */

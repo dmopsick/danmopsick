@@ -50,52 +50,60 @@
 
   <div id="projects" class="section">
     <div id="sga" class="project-section">
-      <a class="sga-proj-pic1 photo-background" href="https://sga.marist.edu/off-campus-activities"></a>
-      <a class="sga-proj-pic2 photo-background" href="https://sga.marist.edu/foxtrot"></a>
-      <a class="sga-proj-pic3 photo-background" href="https://sga.marist.edu/foxtrot"></a>
+      <a class="sga-proj-pic1 proj-pic" href="https://sga.marist.edu/off-campus-activities"></a>
+      <a class="sga-proj-pic2 proj-pic" href="https://sga.marist.edu/foxtrot"></a>
+      <a class="sga-proj-pic3 proj-pic" href="https://sga.marist.edu/foxtrot"></a>
       <div class="sga-proj-desc">
-        <h3 class="sga-proj-header">Marist Student Government IT Council</h3>
+        <h3 class="proj-header">Marist Student Government IT Council</h3>
         <h4 class="sga-proj-subheader">Lead Developer &#183; Fall 2016 - Present</h4>
 
-        <div class="flex-box">
-          <div class="flex-box-half">
-            <h4 class="sga-proj-subheader">Projects Worked On</h4>
-            <ul>
-              <li>Website Redesign</li>
-              <li>Implementing Laravel</li>
-              <li>Off Campus Activities</li>
-              <li>Foxtrot</li>
-              <li>Created FAQ</li>
-            </ul>
-          </div>
-          <div class="flex-box-half">
-            <h4 class="sga-proj-subheader">Duties Performed</h4>
-            <ul>
-              <li>Assign issues to developers</li>
-              <li>Review pull requests</li>
-              <li>Recruit and interview developers</li>
-              <li>Hold weekly developer standups</li>
-              <li>Complete issues</li>
-            </ul>
-          </div>
+        <p>As lead developer I am responsible for developing, maintaining, and enhancing the SGA website. I do this by creating and assigning issues to my team of developers on GitHub and completing them myself. Once a developer completes an issue I review pull requests and give feedback or approve and merge. I connect with my fellow developers through our Slack channel and by holding weekly developer standups.</p>
+
+        <h4 class="sga-proj-subheader">Projects</h4>
+        <p>I participated in a redesign of the website in the spring of 2017 and learned a lot from the older developers. In the summer of 2017 I stepped up and played a major role in transitioning the student government website from a basic HTML site to a Laravel based site. In the fall of 2017 I worked with the student body president to launch the Foxtrot campaign. Foxtrot was a project aimed at getting first year students at Marist get involved with student government and the Marist community in general. In between I have built several pages for the site including the off campus activities page and FAQ pages. </p>
+
+        <h4 class="sga-proj-subheader">Technology Utilized</h4>
+        <p>HTML, CSS, Javascript, PHP, Laravel, Slack, Github</p>
+
+        <div style="width:80%; margin:auto; display:flex;">
+          <img src="{{ URL::asset('img/sga_logo2.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')" align="center"/>
+          <img src="{{ URL::asset('img/carponents_logo.png') }}" class="project-thumbnail carponents-thumbnail" onclick="showProject('carponents')" align="center"/>
+          <img src="{{ URL::asset('img/marist_logo.png') }}" class="project-thumbnail library-thumbnail" onclick="showProject('library')" align="center"/>
         </div>
       </div>
     </div>
     <div id="carponents" class="project-section">
-      CARPONENTS PROJECT
+      <div class="carponents-proj-desc">
+
+
+
+        <div style="width:80%; margin:auto; display:flex;">
+          <img src="{{ URL::asset('img/sga_logo2.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')" align="center"/>
+          <img src="{{ URL::asset('img/carponents_logo.png') }}" class="project-thumbnail carponents-thumbnail" onclick="showProject('carponents')" align="center"/>
+          <img src="{{ URL::asset('img/marist_logo.png') }}" class="project-thumbnail library-thumbnail" onclick="showProject('library')" align="center"/>
+        </div>
+      </div>
     </div>
     <div id="library" class="project-section">
-      Library Project
-    </div>
+      <a class="library-pic" href="http://library.marist.edu/exploro/"></a>
+      <div class="library-proj-desc">
+        <h3 class="proj-header">Marist Library Digital Services</h3>
+        <h4 class="sga-proj-subheader">Web Developer &#183; Spring 2017 - Present</h4>
 
-    <div class="project-thumbnail sga-thumbnail" onclick="showProject('sga')">
-      SGA THUMBNAIL
-    </div>
-    <div class="project-thumbnal carponents-thumbnail" onclick="showProject('carponents')">
-      CARPONENTS THUMBNAIL
-    </div>
-    <div class="project-thumbnal library-thumbnail" onclick="showProject('library')">
-      LBRARY THUMBNAIL
+        <p>As lead developer I am responsible for developing, maintaining, and enhancing the SGA website. I do this by creating and assigning issues to my team of developers on GitHub and completing them myself. Once a developer completes an issue I review pull requests and give feedback or approve and merge. I connect with my fellow developers through our Slack channel and by holding weekly developer standups.</p>
+
+        <h4 class="sga-proj-subheader">Projects</h4>
+        <p>I participated in a redesign of the website in the spring of 2017 and learned a lot from the older developers. In the summer of 2017 I stepped up and played a major role in transitioning the student government website from a basic HTML site to a Laravel based site. In the fall of 2017 I worked with the student body president to launch the Foxtrot campaign. Foxtrot was a project aimed at getting first year students at Marist get involved with student government and the Marist community in general. In between I have built several pages for the site including the off campus activities page and FAQ pages. </p>
+
+        <h4 class="sga-proj-subheader">Technology Utilized</h4>
+        <p>HTML, CSS, Javascript, PHP, Laravel, Slack, Github</p>
+
+        <div style="width:80%; margin:auto; display:flex;">
+          <img src="{{ URL::asset('img/sga_logo2.png') }}" class="project-thumbnail sga-thumbnail" onclick="showProject('sga')" align="center"/>
+          <img src="{{ URL::asset('img/carponents_logo.png') }}" class="project-thumbnail carponents-thumbnail" onclick="showProject('carponents')" align="center"/>
+          <img src="{{ URL::asset('img/marist_logo.png') }}" class="project-thumbnail library-thumbnail" onclick="showProject('library')" align="center"/>
+        </div>
+      </div>
     </div>
   </div>
 
